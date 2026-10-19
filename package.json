@@ -1,0 +1,25 @@
+{
+  "name": "curiovector-butterfly-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CurioVector Episode 3 - The Blue Morpho Butterfly (Remotion project)",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "render:landscape": "remotion render CurioVectorButterflyLandscape out/CurioVector_Butterfly_16x9.mp4",
+    "render:shorts": "remotion render CurioVectorButterflyShorts out/CurioVector_Butterfly_9x16.mp4",
+    "sfx": "bash scripts/make_sfx.sh"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/montserrat": "5.3.0",
+    "@remotion/cli": "4.0.536",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.536"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
